@@ -1,0 +1,23 @@
+PART 2 — Initialize Git
+
+Open terminal inside your project folder:
+
+git init
+ PART 3 — Add files
+git add .
+
+👉 This adds everything except what is in .gitignore
+
+PART 4 — First commit
+git commit -m "Initial commit"
+
+
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+
+PART 7 — Push to GitHub
+git branch -M main
+git push -u origin main
+
+
+if already  push 
+git push -u origin main --force
